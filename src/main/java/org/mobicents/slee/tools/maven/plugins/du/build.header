@@ -11,7 +11,7 @@
 	<!-- CORE RELATED -->
 
 	<path id="project.classpath">
-		<fileset dir="${jboss.deploy}/mobicents-slee/lib">
+		<fileset dir="${jboss.deploy}/restcomm-slee/lib">
 			<include name="*.jar" />
 		</fileset>
 		<fileset dir="${jboss.home}/client">
@@ -34,8 +34,8 @@
 	<pathconvert targetos="unix" property="jboss.home.standard">
 		<path description="To use te same stile for every url file" path="${jboss.home}" />
 	</pathconvert>
-	<pathconvert targetos="unix" property="mobicents.home.standard">
-		<path description="To use te same stile for every url file" path="${mobicents.home}" />
+	<pathconvert targetos="unix" property="restcomm.home.standard">
+		<path description="To use te same stile for every url file" path="${restcomm.home}" />
 	</pathconvert>
 
 		<taskdef name="sbbjar" classname="org.mobicents.ant.SbbJar" classpath="${project.classpath}" />

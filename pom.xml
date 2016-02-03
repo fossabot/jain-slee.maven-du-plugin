@@ -4,8 +4,8 @@
 
 	<parent>
 		<groupId>org.mobicents</groupId>
-		<artifactId>mobicents-parent</artifactId>
-		<version>2.27.15</version>
+		<artifactId>restcomm-parent</artifactId>
+		<version>2.27.27</version>
 	</parent>
 
 	<groupId>org.mobicents.tools</groupId>
@@ -47,9 +47,9 @@
 	</dependencies>
 
 	<scm>
-		<connection>scm:svn:https://mobicents.googlecode.com/svn/tags/servers/jain-slee/tools/maven-du-plugin/2.0.1.FINAL</connection>
-		<developerConnection>scm:svn:https://mobicents.googlecode.com/svn/tags/servers/jain-slee/tools/maven-du-plugin/2.0.1.FINAL</developerConnection>
-		<url>http://mobicents.googlecode.com/svn/tags/servers/jain-slee/tools/maven-du-plugin/2.0.1.FINAL</url>
+		<connection>scm:git:https://github.com/RestComm/jain-slee.maven-du-plugin.git</connection>
+		<developerConnection>scm:git:git@github.com:RestComm/jain-slee.maven-du-plugin.git</developerConnection>
+		<url>https://github.com/RestComm/jain-slee.maven-du-plugin</url>
 	</scm>
 
 	<!-- dupe info from parent, but it's only way to retrieve the parent without 
@@ -57,8 +57,8 @@
 
 	<repositories>
 		<repository>
-                        <id>mobicents-public-repository-group</id>
-                        <name>Mobicents Public Maven Repository Group</name>
+                        <id>restcomm-public-repository-group</id>
+                        <name>Restcomm Public Maven Repository Group</name>
                         <url>https://oss.sonatype.org/content/groups/public</url>
                         <layout>default</layout>
                         <releases>
