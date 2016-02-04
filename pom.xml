@@ -122,16 +122,15 @@
 						</goals>
 						<configuration>
 							<outputDirectory>${basedir}/target/classes/org/mobicents/slee/tools/maven/plugins/du</outputDirectory>
-							<resources>          
+							<resources>
 								<resource>
 									<directory>src/main/java/org/mobicents/slee/tools/maven/plugins/du</directory>
-									<filtering>true</filtering>
 							        <includes>
 							        	<include>**/build.*</include>
 							        </includes>
 								</resource>
-							</resources>              
-						</configuration>            
+							</resources>
+						</configuration>
 					</execution>
 				</executions>
 			</plugin>
