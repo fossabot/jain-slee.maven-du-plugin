@@ -142,14 +142,14 @@ public class AntManagementScriptMojo extends AbstractMojo {
 		LinkedList<String> undeployElements = new LinkedList<String>();
 		try {
 			BufferedReader in = new BufferedReader(new InputStreamReader(this
-					.getClass().getResourceAsStream("/build.header")));
+					.getClass().getResourceAsStream("build.header")));
 			String str = "";
 			while ((str = in.readLine()) != null) {
 				header += str + "\r\n";
 			}
 
 			in = new BufferedReader(new InputStreamReader(this.getClass()
-					.getResourceAsStream("/build.footer")));
+					.getResourceAsStream("build.footer")));
 
 			while ((str = in.readLine()) != null) {
 				footer += str + "\r\n";
