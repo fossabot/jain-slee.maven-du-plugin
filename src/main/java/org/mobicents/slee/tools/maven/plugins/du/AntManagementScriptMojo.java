@@ -434,7 +434,7 @@ public class AntManagementScriptMojo extends AbstractMojo {
 		if (getLog().isDebugEnabled()) {
 			getLog().debug(
 					"Collecting non hidden files with " + suffix
-							+ " name sufix from directory "
+							+ " name suffix from directory "
 							+ inputDirectory.getAbsolutePath());
 		}
 
@@ -446,7 +446,7 @@ public class AntManagementScriptMojo extends AbstractMojo {
 		if (getLog().isDebugEnabled()) {
 			getLog().debug(
 					"Directory " + inputDirectory.getAbsolutePath()
-							+ " sucessfully validated.");
+							+ " successfully validated.");
 		}
 
 		Set<String> result = new HashSet<String>();
