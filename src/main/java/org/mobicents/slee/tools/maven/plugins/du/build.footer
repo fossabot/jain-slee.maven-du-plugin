@@ -1,9 +1,4 @@
 
-		<!-- UNINSTALL DU -->
-		<antcall target="uninstall-DU" />
-	
-	</target>
-
 	<target name="deploy">
 		<copy overwrite="true"
 			file="${du.filename}"
