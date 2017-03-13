@@ -1,14 +1,7 @@
 
-		<!-- UNINSTALL DU -->
-		<antcall target="uninstall-DU" />
-	
-	</target>
-
 	<target name="deploy">
-		<copy overwrite="true" 
-
+		<copy overwrite="true"
 			file="${du.filename}"
-
 			todir="${jboss.deploy}" />
 	</target>
 

@@ -109,7 +109,7 @@ public class DeployableUnitDescriptorMojo extends AbstractMojo {
 		try {
 			fileWriter = new FileWriter(descriptor);
 			fileWriter.write(xml);
-			getLog().info("Generated JAIN SLEE 1.1 Deployable Unit XML descriptor:\n"+xml);			
+			getLog().info("Generated JAIN SLEE 1.1 Deployable Unit XML descriptor:\n"+xml);
 		} catch (IOException e) {
 			throw new MojoExecutionException("Error creating file "
 					+ descriptor, e);
@@ -192,7 +192,7 @@ public class DeployableUnitDescriptorMojo extends AbstractMojo {
 	private Set<String> collectFiles(File inputDirectory, String suffix) {
 
 		if (getLog().isDebugEnabled()) {
-			getLog().debug("Collecting non hidden files with "+suffix+" name sufix from directory "+inputDirectory.getAbsolutePath());
+			getLog().debug("Collecting non hidden files with "+suffix+" name suffix from directory "+inputDirectory.getAbsolutePath());
 		}
 		
 		if (inputDirectory == null || !inputDirectory.exists()
@@ -201,7 +201,7 @@ public class DeployableUnitDescriptorMojo extends AbstractMojo {
 		}
 
 		if (getLog().isDebugEnabled()) {
-			getLog().debug("Directory "+inputDirectory.getAbsolutePath()+" sucessfully validated.");
+			getLog().debug("Directory "+inputDirectory.getAbsolutePath()+" successfully validated.");
 		}
 
 		Set<String> result = new HashSet<String>();
