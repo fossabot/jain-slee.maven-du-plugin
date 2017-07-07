@@ -1,4 +1,6 @@
 # Restcomm Maven DU Plugin
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FRestComm%2Fjain-slee.maven-du-plugin.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FRestComm%2Fjain-slee.maven-du-plugin?ref=badge_shield)
+
 
 The Maven DU Plugin can be used to manage build lifecycle of JAIN SLEE 1.1 Deployable Units (DUs) jars. It provides the following goals:
 
@@ -140,3 +142,6 @@ Managing DU jars deployed in Mobicents JAIN SLEE can be done with a simple file 
 
 * **Is the plugin compatible with M2Eclipse Plugin?** Yes, but you need to turn off Workspace Resolution or Resolve Workspace Dependencies when creating or importing the project. It is also recommended to use an external installation of Maven since the one embedded in M2Eclipse is quite different than the usual apache binaries.
 * **Some jars, which are dependencies declared in the pom's parent, are bundled in the DU jar, how to avoid that?** There are several configuration parameters, which can be used by the copy-dependencies goal, to exclude one or more dependencies. See the [maven-dependency-plugin site](http://maven.apache.org/plugins/maven-dependency-plugin/copy-dependencies-mojo.html) for details and examples.
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FRestComm%2Fjain-slee.maven-du-plugin.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FRestComm%2Fjain-slee.maven-du-plugin?ref=badge_large)
